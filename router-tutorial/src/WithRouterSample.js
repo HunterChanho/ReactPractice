@@ -6,7 +6,7 @@ const WithRouterSample = ({ location, match, history}) => {
         <div>
             <h4>location</h4>
             <textarea 
-                value={JSON.stringify(location, null, 2)}
+                value={JSON.stringify(location, null, 2)} // null 2면 들여쓰기 적용
                 rows={7}
                 readOnly={true}
             />
