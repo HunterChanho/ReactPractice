@@ -23,7 +23,7 @@ const NewsList = ({ category }) => {
         return axios.get(
             `https://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=0457d1bb4b244da1a8f019a303cfbb3a`,
         );
-    }, [category])
+    }, [category])  
 
 
     // 대기 중일 때
